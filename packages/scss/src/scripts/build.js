@@ -1,10 +1,6 @@
-// const fs = require('fs');
-// const path = require('path');
-// const sass = require('sass');
-
-import { writeFileSync, readdirSync } from "fs";
-import { resolve } from "path";
-import { compile as _compile } from "sass";
+const fs = require("fs");
+const path = require("path");
+const sass = require("sass");
 
 /**
  * compile any scss file to css
@@ -12,12 +8,12 @@ import { compile as _compile } from "sass";
  * @param {string} output output file
  */
 const compile = (src, output) => {
-  const result = _compile(resolve(src), {
+  const result = sass.compile(path.resolve(src), {
     style: "expanded",
     verbose: true,
   });
 
-  writeFileSync(resolve(output), result.css);
+  fs.writeFileSync(path.resolve(output), result.css);
 };
 
 // compile the global css
@@ -33,7 +29,7 @@ const getComponents = () => {
   const types = ["atoms", "molecules", "organisms"];
 
   types.forEach((type) => {
-    const allFiles = readdirSync(`src/${type}`).map((file) => ({
+    const allFiles = fs.readdirSync(`src/${type}`).map((file) => ({
       src: `src/${type}/${file}`,
       output: `lib/${file.slice(0, -5)}.css`,
     }));

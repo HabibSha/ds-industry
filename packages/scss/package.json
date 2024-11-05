@@ -1,10 +1,13 @@
 {
-  "name": "src",
+  "name": "scss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "build": "node ./scr/scripts/build.js"
+    "build": "node ./src/scripts/build.js"
   },
   "keywords": [],
   "author": "",
