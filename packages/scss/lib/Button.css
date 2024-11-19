@@ -125,6 +125,7 @@
   font-family: var(--dsi-body-font-family, "Playfair Display", serif);
   font-size: var(--dsi-body-font-size, 0.875rem);
   padding: 0.5rem 1rem;
+  cursor: "pointer";
 }
 
 .btn-primary {
