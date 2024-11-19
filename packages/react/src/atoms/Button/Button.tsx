@@ -1,5 +1,7 @@
 import React from "react";
 
+import "@ds-industry/scss/lib/Button.css";
+
 interface ButtonProps {
   title: string;
   children: React.ReactNode;

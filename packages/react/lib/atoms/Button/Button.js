@@ -1,4 +1,5 @@
 import React from 'react';
+import '@ds-industry/scss/lib/Button.css';
 
 const Button = ({ title, onClick, children }) => {
     return (React.createElement("button", { className: "btn btn-primary", title: title, onClick: onClick }, children));
