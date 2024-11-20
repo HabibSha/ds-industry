@@ -1,13 +1,13 @@
 @import "../foundation/all";
 
-.dse-text {
+.dsi-text {
   margin: 0;
   font-family: $body-font-family;
   color: $body-text-color;
 }
 
 @each $size, $value in $fs {
-  .dse-text-#{$size} {
+  .dsi-text-#{$size} {
     font-size: $value;
   }
 }

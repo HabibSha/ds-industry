@@ -119,82 +119,82 @@
  * styles for components.
  *
  */
-.dse-width-none {
+.dsi-width-none {
   width: 0;
 }
 
-.dse-height-none {
+.dsi-height-none {
   height: 0;
 }
 
-.dse-width-xxxs {
+.dsi-width-xxxs {
   width: 0.25rem;
 }
 
-.dse-height-xxxs {
+.dsi-height-xxxs {
   height: 0.25rem;
 }
 
-.dse-width-xxs {
+.dsi-width-xxs {
   width: 0.5rem;
 }
 
-.dse-height-xxs {
+.dsi-height-xxs {
   height: 0.5rem;
 }
 
-.dse-width-xs {
+.dsi-width-xs {
   width: 0.75rem;
 }
 
-.dse-height-xs {
+.dsi-height-xs {
   height: 0.75rem;
 }
 
-.dse-width-sm {
+.dsi-width-sm {
   width: 1rem;
 }
 
-.dse-height-sm {
+.dsi-height-sm {
   height: 1rem;
 }
 
-.dse-width-md {
+.dsi-width-md {
   width: 1.5rem;
 }
 
-.dse-height-md {
+.dsi-height-md {
   height: 1.5rem;
 }
 
-.dse-width-lg {
+.dsi-width-lg {
   width: 2rem;
 }
 
-.dse-height-lg {
+.dsi-height-lg {
   height: 2rem;
 }
 
-.dse-width-xl {
+.dsi-width-xl {
   width: 3rem;
 }
 
-.dse-height-xl {
+.dsi-height-xl {
   height: 3rem;
 }
 
-.dse-width-xxl {
+.dsi-width-xxl {
   width: 4.5rem;
 }
 
-.dse-height-xxl {
+.dsi-height-xxl {
   height: 4.5rem;
 }
 
-.dse-width-xxxl {
+.dsi-width-xxxl {
   width: 6rem;
 }
 
-.dse-height-xxxl {
+.dsi-height-xxxl {
   height: 6rem;
 }

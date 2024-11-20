@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Color = ({ hexCode }) => {
-    return React.createElement("div", { style: { background: hexCode } });
+const Color = ({ hexCode, width, height }) => {
+    return React.createElement("div", { style: { backgroundColor: hexCode, width, height } });
 };
 
 export { Color as default };
